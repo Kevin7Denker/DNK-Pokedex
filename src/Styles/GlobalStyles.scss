@@ -1,0 +1,21 @@
+:root{
+    --primary: #1F1B2D;
+    --secundary: #663399;
+    --font-primary: 'Londrina Shadow';
+    --font-secundary: 'Poppins', sans-serif;
+    --font-footer:'Libre Barcode 128 Text', cursive ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: var(--primary);
+}
+

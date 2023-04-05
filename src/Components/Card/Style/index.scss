@@ -1,0 +1,50 @@
+.pokeCard{
+    font-family: var(--font-secundary);
+    background-color: white;
+    width: 20vw;
+    height: 35vh;
+    margin: 0.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(128, 73, 184);
+    border: 3px solid rebeccapurple;
+
+    img{
+        width: 8vw;
+        border-radius: 100rem;
+        border: 2px solid rebeccapurple;
+        background-color: rgb(197, 197, 197);
+        box-shadow: 0 0 5px rgb(128, 73, 184);  
+    }
+
+    .info{
+
+        #id{
+            margin: 0.5rem;
+        }
+
+        #name{
+            font-weight: 900;
+            font-size: 1.2rem;
+            margin: 0.5rem;
+            text-transform: capitalize;
+        }
+    }
+
+    .more{
+        margin-top: 1rem;
+        justify-content: space-between;
+        width: 15vw;
+        font-size: 1rem;
+        color: gray;
+
+        .status{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
